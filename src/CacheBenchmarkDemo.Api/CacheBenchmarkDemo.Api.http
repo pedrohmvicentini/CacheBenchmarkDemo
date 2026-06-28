@@ -1,0 +1,6 @@
+@CacheBenchmarkDemo.Api_HostAddress = http://localhost:5191
+
+GET {{CacheBenchmarkDemo.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

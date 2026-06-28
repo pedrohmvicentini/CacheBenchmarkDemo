@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/docker/">
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/CacheBenchmarkDemo.Api/CacheBenchmarkDemo.Api.csproj" />
+    <Project Path="src/CacheBenchmarkDemo.Application/CacheBenchmarkDemo.Application.csproj" />
+    <Project Path="src/CacheBenchmarkDemo.Contracts/CacheBenchmarkDemo.Contracts.csproj" />
+    <Project Path="src/CacheBenchmarkDemo.Domain/CacheBenchmarkDemo.Domain.csproj" />
+    <Project Path="src/CacheBenchmarkDemo.Infrastructure/CacheBenchmarkDemo.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CacheBenchmarkDemo.IntegrationTests/CacheBenchmarkDemo.IntegrationTests.csproj" />
+    <Project Path="tests/CacheBenchmarkDemo.UnitTests/CacheBenchmarkDemo.UnitTests.csproj" />
+  </Folder>
+</Solution>

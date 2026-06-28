@@ -1,0 +1,18 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: cache-benchmark-postgres
+    environment:
+      POSTGRES_DB: cachebenchmark
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+
+  redis:
+    image: redis:7
+    container_name: cache-benchmark-redis
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
